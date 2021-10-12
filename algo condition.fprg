@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 01:30:13 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC1VVEc0T0lKOzIwMjEtMTAtMTI7IjEwOjU5OjI0ICI7MzEzNg=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1VVEc0T0lKOzIwMjEtMTAtMTI7IjAxOjMwOjEzICI7MTszMjMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="note, moyenne" type="Integer" array="False" size=""/>
+            <declare name="valid&#233;, nonvalid&#233;" type="String" array="False" size=""/>
+            <output expression="&quot;donnez votre note&quot;" newline="True"/>
+            <input variable="note"/>
+            <output expression="&quot;donnez la moyenne&quot;" newline="True"/>
+            <input variable="moyenne"/>
+            <if expression="note&lt;moyenne">
+                <then>
+                    <output expression="&quot;non valid&#233;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;valid&#233;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
