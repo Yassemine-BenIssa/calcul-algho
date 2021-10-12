@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 11:13:32 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC1VVEc0T0lKOzIwMjEtMTAtMTI7IjEwOjU5OjIxICI7MzEzMw=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1VVEc0T0lKOzIwMjEtMTAtMTI7IjExOjEzOjMyICI7MTszMjM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, somme" type="Integer" array="False" size=""/>
+            <output expression="&quot;saiser le 1er nombre&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;saiser le 2&#233;me nombre&quot;" newline="True"/>
+            <input variable="B"/>
+            <assign variable="somme" expression="A+B"/>
+            <output expression="somme" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
